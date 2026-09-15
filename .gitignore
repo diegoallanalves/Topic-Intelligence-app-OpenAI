@@ -1,9 +1,8 @@
-# Never commit secrets
+# Secrets
 .env
-.env.*
 .streamlit/secrets.toml
 
-# Source data / Office files
+# Data / office files
 *.xlsx
 *.xls
 *.docx
@@ -17,8 +16,8 @@ venv/
 myenv/
 .pytest_cache/
 
-# Editors / OS
-.vscode/
-.idea/
+# OS / editor
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/

@@ -33,7 +33,9 @@ LEGAL_EFFECT_VERBS = {
     "suspends", "suspend", "withdraws", "withdraw", "designates", "designate",
     "amends", "amend", "conditions", "condition", "screens", "screen",
     "certifies", "certify", "repeals", "repeal", "waives", "waive",
-    "allocates", "allocate", "maintains", "maintain",
+    "allocates", "allocate",
+    # Compatibility with Worked Example A in the supplied policy prompt.
+    "maintains", "maintain",
 }
 
 BANNED_PROVISION_TERMS = {
@@ -42,6 +44,10 @@ BANNED_PROVISION_TERMS = {
 }
 
 TRAP_TERMS = [
-    "transformer", "market access", "supply chain", "grid",
-    "electrical equipment", "tariff",
+    "transformer",
+    "market access",
+    "supply chain",
+    "grid",
+    "electrical equipment",
+    "tariff",
 ]
